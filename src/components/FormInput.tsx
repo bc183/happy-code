@@ -1,4 +1,5 @@
 import React, { ChangeEvent } from "react";
+import { InputState } from "../pages/Register";
 import "../styles/formInput.css";
 
 export type FormInputProps = {
@@ -7,7 +8,7 @@ export type FormInputProps = {
     type: string;
     placeholder: string;
     required: boolean;
-    onChange: (value: any) => void;
+    onChange: (value: InputState<any>) => void;
     errorMessage: string;
     validators?: Validator[];
 };
