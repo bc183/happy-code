@@ -1,0 +1,18 @@
+.submit-btn {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: #5864f3;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+}
+
+.submit-btn:disabled {
+    background-color: #7983f0;
+}
+
+.submit-btn:hover:enabled {
+    background-color: #6772ec;
+    transition: all 0.2s ease-in;
+}
